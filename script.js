@@ -1,13 +1,13 @@
-const LOGO_EVENT="logo/ormafest.png"; // alamat file logo Ormafest 2026
-const IMG_COVER="img/cover.jpg"; // gambar cover
-const IMG_FIL="img/rhapsody.jpg";   // gambar filosofi
+const LOGO_EVENT="ormafest.png"; // alamat file logo Ormafest 2026
+const IMG_COVER="cover.jpg"; // gambar cover
+const IMG_FIL="rhapsody.jpg";   // gambar filosofi
 const LOGO={};      // {"Nama Ormawa":"data:image/png;base64,..."}
 const VIDEO={};     // {"Nama Ormawa":"https://youtube.com/..."}
 const API="";            // URL web app Google Apps Script (berakhiran /exec); kosong = mode contoh
 const FORM_EXPLORE="";   // link Google Form pilih ormawa OrmaExplore
 const TOTAL_BOOTH=53;
 const SESI={1:"08.00–09.00",2:"09.25–10.25",3:"10.50–11.50",4:"13.35–14.35"};
-const MAPS={ormafair:"",ormaexplore:"denah/ormaexplore.png"};  // alamat gambar denah final
+const MAPS={ormafair:"",ormaexplore:"ormaexplore.png"};  // alamat gambar denah final
 const TL=[
  {d:"Day 1",t:"4 Des",k:"Opening",p:"Drama musikal, penerjunan bendera, parade seluruh ormawa, dan flashmob bersama.",c:"#e8557a"},
  {d:"Day 1",t:"4 Des",k:"OrmaFair",p:"Berkeliling di 4 zona, mengenal ormawa lewat booth, dan mengumpulkan stempel di paspormu.",c:"#2c7bb6"},
